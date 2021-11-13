@@ -11,31 +11,28 @@ const funcionExpresiva = function(nombre){
 }
 
 // ----Qué es el scope en JavaScript----
+
 // Variable global
 function variables() {
   variableGlobal = 'Esto es una variable global'
 }
-
 variables();
 console.log(variableGlobal);
 
 // Variable Local
 function variable(){
-  var variableLocal = variableGlobal = 'Variable Global';
+  var variableLocal =  'Esto es una Variable Local';
+  console.log(variableLocal);
 }
+var variableLocal = "Esta variable esta afuera del bloque de codigo"
 variable();
 
-console.log(variableGlobal);
+console.log(variableLocal);
 
 //coerción implícita 
-let var1;
-if (var1) {
-  console.log('Hola mundo!!');
-}
-
-let var2 = 100;
-if (var2) {
-  console.log('Hello World!!');
+let name = 'Jordy Vega';
+if (name) {
+    console.info('Hello ' + name);
 }
 
 // Funciones anonimas 

@@ -1,3 +1,7 @@
+.container-p{
+  width: 700px;
+  margin: 0 auto;
+}
 .nombre{
   font-size: 20px;
   color: blue;
@@ -6,6 +10,9 @@
   background-color: rgb(230, 230, 230);
 }
 
+.img-api{
+  width: 100%;
+}
 .container1{
   margin: top 10%;
   margin-left: 20px;
