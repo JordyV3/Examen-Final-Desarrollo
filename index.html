@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/icono.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styled.css" />
+    <title>Jordy Vega</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Examen final</h1>
+      <div class="container text-center mb-4">
+        <img src="./img/Caratula.png" alt="">
+      </div>
+      <p class="text-center nombre">Jordy Alexander Vega Aldana 1190-18-9769</p>
+      <!-- SERIE #1 -->
+      <div class="container">
+        <h2 class="text-center">
+          Serie I. (10 pts. resuelva las preguntas con sus propias palabras)
+        </h2>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="container">
+            <li class="nav-item">
+              1. Que es una Apirest y mencione 2 ejemplos de uso.
+            </li>
+            <div class="card text-center mt-4 mb-4">
+              <p>
+                Una API REST, o API de RESTful, es una interfaz de programación
+                de aplicaciones que se ajusta a los límites de la arquitectura
+                REST y permite la interacción con los servicios web de RESTful.
+              </p>
+            </div>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              2. Cuáles son los métodos http que se usan en la apisrest full
+            </li>
+            <div class="card text-center mt-4 mb-4">
+              <p>- POST - PUT - GET - Delete</p>
+            </div>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              3. Describa la arquitectura que debe cumplir un servicio REST.
+            </li>
+            <div class="card text-center mt-4 mb-4">
+              <p>
+                - Interfaz uniforme - Peticiones sin estado <br />
+                - Cacheable - Separación de cliente y servidor - Sistema de
+                capas <br />
+                - Código bajo demanda (opcional)
+              </p>
+            </div>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              4. Que son las pruebas de escucha de DB (Owasp-CM-002)
+            </li>
+            <div class="card text-center mt-4 mb-4">
+              <p>
+                El receptor de escucha es el punto de entrada a conexiones
+                remotas a una base de datos Oracle. Escucha peticiones de
+                conexión y realiza la gestión acorde de las mismas.
+              </p>
+            </div>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              5. Que son las pruebas de firma de aplicaciones de acuerdo al
+              OWASP-IG-004
+            </li>
+            <div class="card text-center mt-4 mb-4">
+              <p>
+                La obtención de un sistema digital de un servidor web es una
+                tarea para la persona que realiza una prueba de intrusión. Saber
+                el tipo y versión del servidor en ejecución le permite
+                determinar vulnerabilidades conocidas, y los exploits apropiados
+                a usar durante la prueba.
+              </p>
+            </div>
+          </div>
+        </ul>
+      </div>
+
+      <!-- SERIE #2 -->
+      <div class="caontainer">
+        <h2 class="text-center">
+          Serie II. (10 pts./ desarrolle lo que se le pide a continuación)
+        </h2>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="container">
+            <li class="nav-item">
+              1. ¿Escribe una función en javascritp que permita mostrar la
+              diferencia entre una función declarativa y una expresiva?
+            </li>
+            <div class="container text-center mt-4 mb-4">
+              <div class="card">
+                <div class="container">
+                  <h3>Funcion declarativa</h3>
+                  <img src="./img/coerción implícita .png" alt="" class="mt-4 mb-4" />
+                  
+                </div>
+                <div class="container bm-4 mb-4">
+                  <a
+                  type="button"
+                  onclick="funcionDeclarativa()"
+                  class="btn btn-primary bm-4"
+                  >Funcion declarativa</a
+                >
+                </div>
+              </div>
+              <br>
+              <div class="card">
+                <div class="container">
+                  <h3>Funcion expresivas</h3>
+                  <img src="./img/funcion-expresiva.png" class="mt-4 mb-4" alt="">  
+                </div>
+                <div class="container bm-4 mb-4">
+                  <a
+                  type="button"
+                  onclick="funcionExpresiva()"
+                  class="btn btn-primary"
+                  >Funcion Expresiva</a
+                >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              2.Que es el Scope global en javascritp realiza un ejemplo en la
+              consola del navegador
+            </li>
+            <div class="container">
+              <div class="card text-center mt-4 mb-4">
+                <p>
+                  El scope puede definirse como el alcance que una variable
+                  tendrá en tu código. En otras palabras, el scope decide a qué
+                  variables tienes acceso en cada parte del código. Existen dos
+                  tipos de scope, el scope global y el scope local. A
+                  continuación te mostraré un par de ejemplos explicando en qué
+                  consiste cada uno de ellos.
+                </p>
+                <div class="container mb-4">
+                  <h3>Sin Scope</h3>
+                  <img src="./img/global.png" alt="" />
+                </div>
+                <div class="container mb-4">
+                  <h3>Con Scope</h3>
+                  <img src="./img/Local.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              3. Cual es la diferencia entre coerción implícita y explicita haz
+              un ejemplo en javascritp.
+            </li>
+            <div class="card mt-4 mb-4">
+              <p class="text-center">
+                Explícita: Es cuando convertimos un valor a otro de manera
+                apropiada (String, Number, etc) Implícita: Cuando se convierten
+                los valores de manera “automática”, y comúnmente es cuando
+                aplicamos los operadores de valores diferentes (true + false,
+                “hola” + 2 + 3, etc), y también cuando aplicamos if(value) {},
+                donde se hace coacción es el valor a un booleano.
+              </p>
+              <div class="container text-center">
+                <h3>coerción implícita</h3>
+                <img src="./img/coerción implícita .png" class="mt-4 mb-4"alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              4. Consume la siguiente api
+              https://pokeapi.co/api/v2/pokemon/ditto con javascritp y muestra
+              el resultado por consola.
+            </li>
+          </div>
+          <div class="container">
+            <li class="nav-item">
+              5. Que son las funciones anónimas en javascritp.
+            </li>
+            <div class="card text-center mt-4 mb-4">
+              <p>
+                Nos permite no asignarle a un nombre un conjunto de
+                instrucciones que deseemos ejecutarlo sin necesidad de
+                asociarlo.
+              </p>
+              <div class="container">
+                <h3>Funcion anonima</h3>
+                <img src="./img/funcion anonima.png" class="mt-4 mb-4" alt="" />
+              </div>
+              <div class="container bm-4 mb-4">
+                <a
+                type="button"
+                onclick="coheteEspacial()"
+                class="btn btn-primary bm-4"
+                >Funcion anonima</a
+              >
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+      <!-- SERIE #3 -->
+      <div class="container">
+        <h2 class="text-center">
+          Serie III. (15 pts./ desarrolle lo que se  le pide a continuación).
+        </h2>
+        <div class="container">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">1.	Cree una base de datos llamada examen y una  tabla en la base de datos con su nombre</li>
+            <br>
+            <li class="nav-item">2.	Cree los campos siguientes</li>
+              <div class="container1" styled="margin-left:10px">
+                <li>a.	Id de tipo bigint  llave primaria autoincrementable.</li>
+                <li>b.	Nombre: Cadena</li>
+                <li>c.	Apellidos : Cadena</li>
+                <li>d.	Dirección: Cadena</li>
+                <li>e.	Teléfono: Cadena de 10 espacios</li>
+                <li>f.	Cree 5 registros en la tabla</li>
+              </div>
+              <br>
+            <li class="nav-item">3.	Construya un servicio de tipo Rest usando php con laravel, lumen, nodejs o el framework que utilizo para su proyecto,  de acuerdo con lo visto en clase y consuma y cree solo un servicio método llamado, por ejemplo: 127.0.0.1:5000/api/persona/) de tipo GET que devuelva</li>
+          </ul>
+          <div class="container mt-4 mb-4">
+            <h3>Link repositorio github</h3>
+            <a href="">Repositorio Github</a>
+          </div>
+         
+        </div>
+        <div class="container mb-4">
+          <div class="card">
+            <div class="container text-center mt-4">
+              <h3>index.js</h3>
+              <img src="./img/mg1.png" alt="">
+            </div>
+            <div class="container text-center mt-4">
+              <h3>config.js</h3>
+              <img src="./img/mg2.png" alt="">
+            </div>
+            <div class="container text-center mt-4 mb-4">
+              <h3>jordy.js</h3>
+              <img src="./img/mg3.png" alt="">
+            </div>
+            <div class="container text-center mt-4 mb-4">
+              <h3>Base de datos</h3>
+              <img src="./img/db.png" alt="">
+            </div>
+            <div class="container text-center mt-4 mb-4">
+              <h3>Ruta de la Api</h3>
+              <img src="./img/img1.png" alt="">
+            </div>
+            <div class="container text-center mt-4 mb-4">
+              <h3>Datos de la peticion GET</h3>
+              <img src="./img/img2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./js/funciones.js"></script>
+  </body>
+</html>

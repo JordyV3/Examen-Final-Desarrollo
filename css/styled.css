@@ -1,0 +1,12 @@
+.nombre{
+  font-size: 20px;
+  color: blue;
+}
+.card{
+  background-color: rgb(230, 230, 230);
+}
+
+.container1{
+  margin: top 10%;
+  margin-left: 20px;
+}
